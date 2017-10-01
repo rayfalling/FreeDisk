@@ -10,7 +10,7 @@
 namespace FreeDiskWeb {
     
     
-    public partial class login {
+    public partial class Login {
         
         /// <summary>
         /// form1 控件。
@@ -29,5 +29,23 @@ namespace FreeDiskWeb {
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image headimg;
+        
+        /// <summary>
+        /// UserName 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox UserName;
+        
+        /// <summary>
+        /// PassWord 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox PassWord;
     }
 }
